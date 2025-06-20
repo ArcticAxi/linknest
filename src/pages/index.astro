@@ -1,16 +1,46 @@
 ---
-
+import LinkItem from '../components/LinkItem.astro';
+import '../styles/global.css';
 ---
 
-<html lang="en">
+<html lang="en" class="dark">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+
+		<!-- Optional, good for SEO and social previews -->
+		<meta property="og:title" content="Axi's Linknest" />
+		<meta property="og:description" content="A small next with links to my creative and tech work." />
+		<meta property="og:type" content="website" />
+		<!-- Update later once hosted on Netlify -->
+		<meta property="og:url" content="https://your-netlify-name.netlify.app" />
+
+		<!-- TODO: Add favicons -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<title>Axi's Linknest</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-gray-900 text-white">
+		<main>
+			<header>
+				<h1>Axi's Linknest</h1>
+	
+				<p class="text-neutral-400 text-sm">Add tagline.</p>
+			</header>
+
+			<nav>
+				<LinkItem href="https://wispsofgrief.netlify.app" label="Wisps of Grief (Poetry)" />
+				<LinkItem href="https://github.com/ArcticAxi" label="GitHub" icon="github" />
+				<LinkItem href="https://www.linkedin.com/in/michele-stassen/" label="LinkedIn" icon="linkedin" />
+			</nav>	
+	
+			<footer class="footer">
+				<div class="copyright">
+					<p> © 2025 - <a href="/">ArcticAxi</a> </p>
+				</div>
+			</footer>
+		</main>
 	</body>
 </html>
