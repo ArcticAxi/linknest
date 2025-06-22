@@ -1,5 +1,6 @@
 ---
 import LinkItem from '../components/LinkItem.astro';
+import ProfileImg from '../components/ProfileImg.astro';
 import '../styles/global.css';
 ---
 
@@ -20,12 +21,14 @@ import '../styles/global.css';
 		<!-- TODO: Add favicons -->
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-		<title>Axi's Linknest</title>
+		<title>Michèle's Linknest</title>
 	</head>
 	<body class="bg-gradient-to-b from-slate-950 to-blue-950 text-white">
-		<div class="max-w-2xs mx-auto text-center min-h-screen flex flex-col justify-start pt-[25vh]">
-			<header class="mb-6">
-				<h1 class="text-3xl font-bold mb-2">Axi's Linknest</h1>
+		<div class="max-w-2xs mx-auto text-center min-h-screen flex flex-col justify-start pt-14">
+			<header class="flex flex-col mb-6 items-center">
+				<ProfileImg />
+
+				<h1 class="text-3xl font-bold mb-2">Michèle's Linknest</h1>
 	
 				<p class="text-neutral-100 text-base">A cozy nest for my web development hatchlings and socials.</p>
 			</header>
@@ -40,7 +43,7 @@ import '../styles/global.css';
 
 	
 			<footer class="text-sm text-neutral-400 mt-2">
-				<p> &copy; 2025 - <a href="/" class="underline hover:text-neutral-300">ArcticAxi</a> </p>
+				<p> &copy; 2025 - Michèle (ArcticAxi) </p>
 			</footer>
 		</div>
 	</body>
