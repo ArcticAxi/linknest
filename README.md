@@ -1,6 +1,6 @@
 # Axi's Linknest
 
-[![Visit Site](https://img.shields.io/badge/visit-Axi's_Linknest-1e3a8a)](https://linknest-axi.netlify.app/)
+[![Visit Site](https://img.shields.io/badge/visit-Axi's_Linknest-38bdf8)](https://linknest-axi.netlify.app/)
 
 *A personal, minimalist Linktree-style link hub built with Astro and Tailwind CSS.*
 
