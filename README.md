@@ -1,10 +1,10 @@
 # Axi's Linknest
 
+[![Visit Site](https://img.shields.io/badge/visit-Axi's_Linknest-1e3a8a)](https://linknest-axi.netlify.app/)
+
 *A personal, minimalist Linktree-style link hub built with Astro and Tailwind CSS.*
 
 This project serves as a centralized place to showcase my key links — including GitHub, LinkedIn, my poetry website, and other web development projects — in a clean, responsive, and accessible design. It’s lightweight and easy to customize, perfect for personal portfolios or anyone wanting a simple link landing page.
-
-[Visit Axi's Linknest](https://linknest-axi.netlify.app/)
 
 ## Features
 - Built with Astro for fast, optimized performance
