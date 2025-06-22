@@ -22,25 +22,26 @@ import '../styles/global.css';
 
 		<title>Axi's Linknest</title>
 	</head>
-	<body class="bg-gray-900 text-white">
-		<main>
-			<header>
-				<h1>Axi's Linknest</h1>
+	<body class="bg-gradient-to-b from-slate-950 to-blue-950 text-white">
+		<div class="max-w-2xs mx-auto text-center min-h-screen flex flex-col justify-start pt-[25vh]">
+			<header class="mb-6">
+				<h1 class="text-3xl font-bold mb-2">Axi's Linknest</h1>
 	
-				<p class="text-neutral-400 text-sm">Add tagline.</p>
+				<p class="text-neutral-100 text-base">A cozy nest for my web dev hatchlings.</p>
 			</header>
 
-			<nav>
-				<LinkItem href="https://wispsofgrief.netlify.app" label="Wisps of Grief (Poetry)" />
-				<LinkItem href="https://github.com/ArcticAxi" label="GitHub" icon="github" />
-				<LinkItem href="https://www.linkedin.com/in/michele-stassen/" label="LinkedIn" icon="linkedin" />
-			</nav>	
+			<main>
+				<nav class="flex flex-col items-center">
+					<LinkItem href="https://wispsofgrief.netlify.app" label="Wisps of Grief" icon="wispsofgrief" />
+					<LinkItem href="https://github.com/ArcticAxi" label="GitHub" icon="github" />
+					<LinkItem href="https://www.linkedin.com/in/michele-stassen/" label="LinkedIn" icon="linkedin" />
+				</nav>	
+			</main>
+
 	
-			<footer class="footer">
-				<div class="copyright">
-					<p> © 2025 - <a href="/">ArcticAxi</a> </p>
-				</div>
+			<footer class="text-sm text-neutral-400 mt-2">
+				<p> &copy; 2025 - <a href="/" class="underline hover:text-neutral-300">ArcticAxi</a> </p>
 			</footer>
-		</main>
+		</div>
 	</body>
 </html>
