@@ -1,6 +1,7 @@
 ---
 import LinkItem from '../components/LinkItem.astro';
 import ProfileImg from '../components/ProfileImg.astro';
+import AboutText from '../components/AboutText.astro';
 import '../styles/global.css';
 ---
 
@@ -24,25 +25,35 @@ import '../styles/global.css';
 		<title>Michèle's Linknest</title>
 	</head>
 	<body class="bg-gradient-to-b from-slate-950 to-blue-950 text-white">
-		<div class="max-w-2xs mx-auto text-center min-h-screen flex flex-col justify-start pt-14">
-			<header class="flex flex-col mb-6 items-center">
-				<ProfileImg />
-
-				<h1 class="text-3xl font-bold mb-2">Michèle's Linknest</h1>
+		<div class="max-w-md items-center mx-auto text-center min-h-screen flex flex-col justify-start pt-14">
+			<div class="max-w-2xs">
+				<header class="flex flex-col mb-6 items-center">
+					<ProfileImg />
 	
-				<p class="text-neutral-100 text-base">A cozy nest for my web development hatchlings and socials.</p>
-			</header>
-
-			<main>
+					<h1 class="text-3xl font-bold mb-2">Michèle's Linknest</h1>
+		
+					<p class="text-neutral-100 text-base">A cozy nest for my web development hatchlings and socials.</p>
+				</header>
+				
 				<nav class="flex flex-col items-center">
 					<LinkItem href="https://wispsofgrief.netlify.app" label="Wisps of Grief" icon="wispsofgrief" />
 					<LinkItem href="https://github.com/ArcticAxi" label="GitHub" icon="github" />
 					<LinkItem href="https://www.linkedin.com/in/michele-stassen/" label="LinkedIn" icon="linkedin" />
 				</nav>	
-			</main>
+			</div>
+			
 
-	
-			<footer class="text-sm text-neutral-400 mt-2">
+			<!-- About for mobile -->
+			<div class="mt-8 text-gray-200 block md:hidden px-4 mb-10 space-y-2 text-justify">
+				<AboutText />
+			</div>
+
+			<!-- Floating About for desktop -->
+			<div class="hidden md:block text-justify fixed top-[20vh] right-12 max-w-2xs p-4 space-y-3 bg-white/90 rounded shadow text-gray-900 text-sm">
+				<AboutText />
+			</div>
+			
+			<footer class="text-sm text-neutral-400 mt-2 mb-8 md:mb-0">
 				<p> &copy; 2025 - Michèle (ArcticAxi) </p>
 			</footer>
 		</div>
