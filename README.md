@@ -1,6 +1,6 @@
 # Michèle's Linknest
 
-[![Visit Site](https://img.shields.io/badge/visit-Axi's_Linknest-0ea5e9)](https://linknest-axi.netlify.app/)
+[![Visit Site](https://img.shields.io/badge/visit-Axi's_Linknest-0ea5e9)](https://michelestassen.netlify.app/)
 
 *A personal, minimalist Linktree-style link hub built with Astro and Tailwind CSS.*
 
