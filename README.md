@@ -13,4 +13,8 @@ This project serves as a centralized place to showcase my key links — includin
 - Dark mode design by default
 - Easy to extend with additional links or sections
 
+## Stack
+- Astro
+- Tailwind CSS
+
 Feel free to fork, customize, and use it for your own link hub!
